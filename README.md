@@ -1,10 +1,10 @@
-*Netsteam database*
+##Netsteam database
 
-**Stacks**
-#1
+#Stacks
+**#1**
 mySQL
 phpMyAdmin
-#2
+**#2**
 Postgres
 Dbeaver
 
