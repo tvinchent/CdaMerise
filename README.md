@@ -31,20 +31,20 @@ Attributes in Camelcase
 
 ## Dictionary
 **Movie**  
-id, title, duration, producer#, releaseDate
+id, title, duration, producer#, releaseDate  
 **Actor**  
-id, name, firstname, role, birthDate
+id, name, firstname, role, birthDate  
 **Producer**  
-id, name, firstname
+id, name, firstname  
 **UserAccount**  
-id, name, firstname, mail, password, status
+id, name, firstname, mail, password, status  
 **ActorMovie**  
-id, actor#, movie#, isMain
+id, actor#, movie#, isMain  
 **UserMovie**  
-id, userAccount#, movie#
-
+id, userAccount#, movie#  
+  
 MCD: TODO  
-MLD: TODO
+MLD: TODO  
 
 ## MPD
 mpd.png
