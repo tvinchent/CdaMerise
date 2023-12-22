@@ -1,4 +1,4 @@
-##Netsteam database##
+## Netsteam database
 
 ```                                                                                                                                                                                 
   ,----..      ,---,       ,---,                                         ,--,    
@@ -17,7 +17,7 @@
                                                                                  
 ```
 
-#Stacks#
+# Stacks
 **#1**
 mySQL
 phpMyAdmin
