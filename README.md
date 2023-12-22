@@ -30,20 +30,20 @@ Entity in PascalCase
 Attributes in Camelcase
 
 ## Dictionary
-**Movie**
+**Movie**  
 id, title, duration, producer#, releaseDate
-**Actor**
+**Actor**  
 id, name, firstname, role, birthDate
-**Producer**
+**Producer**  
 id, name, firstname
-**UserAccount**
+**UserAccount**  
 id, name, firstname, mail, password, status
-**ActorMovie**
+**ActorMovie**  
 id, actor#, movie#, isMain
-**UserMovie**
+**UserMovie**  
 id, userAccount#, movie#
 
-MCD: TODO
+MCD: TODO  
 MLD: TODO
 
 ## MPD
