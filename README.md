@@ -27,8 +27,8 @@ Postgres
 Dbeaver  
 
 ## Convention
-Entity in PascalCase  
-Attributes in Camelcase
+> Entity in PascalCase  
+> Attributes in Camelcase
 
 ## Dictionary
 **Movie**  
@@ -44,10 +44,14 @@ id, actor#, movie#, isMain
 **UserMovie**  
 id, userAccount#, movie#  
   
-MCD: TODO  
-MLD: TODO  
+>> MCD: TODO  
+>> MLD: TODO  
 
 ## MPD
-mpd.png
+
+![mpd.png](mpd.png)
 
 ## Queries
+  
+  
+Question ? <tvinchent@gmail.com>
