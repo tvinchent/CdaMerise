@@ -18,10 +18,11 @@
 ```
 
 ## Stacks
-**#1**
+**#1**  
 mySQL  
 phpMyAdmin  
-**#2**
+  
+**#2**  
 Postgres  
 Dbeaver  
 
