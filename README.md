@@ -1,6 +1,4 @@
-# Netsteam database
-
-```                                                                                                                                                                                 
+# Netsteam database                                                                                                                                                              
   ,----..      ,---,       ,---,                                         ,--,    
  /   /   \   .'  .' `\    '  .' \                     ,---.            ,--.'|    
 |   :     :,---.'     \  /  ;    '.                  /__./|            |  | :    
@@ -15,7 +13,6 @@
  \   \ .'  |   ,.'      `--''                        '---" |  ,     .-./---`-'   
   `---`    '---'                                            `--`---'             
                                                                                  
-```
 
 ## Stacks
 **#1**  
@@ -44,9 +41,11 @@ id, actor#, movie#, isMain
 **UserMovie**  
 id, userAccount#, movie#  
   
-> MCD: TODO  
+## MCD
+> TODO  
   
-> MLD: TODO  
+## MLD
+> TODO  
 
 ## MPD
 
@@ -54,7 +53,10 @@ id, userAccount#, movie#
 
 ## Queries
   
-> TODO
+Selectionner tout les films
+````
+SELECT * FROM Movie
+````
   
 ## Question ?
 <tvinchent@gmail.com>
