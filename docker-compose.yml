@@ -18,10 +18,12 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: pwd
       MYSQL_DATABASE: db
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+    user: mysql 
     volumes:
-      - ./:/var/lib/mysql
-      - ./netstream.sql:/var/lib/mysql
-      - ./netstream-populate.sql:/var/lib/mysql
+      - ./mysql-data:/var/lib/mysql:rw
+      # - ./netstream.sql:/var/lib/mysql
+      # - ./netstream-populate.sql:/var/lib/mysql
 
   phpmyadmin:
     image : phpmyadmin:5.2
