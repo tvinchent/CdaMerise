@@ -1,8 +1,16 @@
 version: '3.8'
 services:  
+  php:
+    image: php:8.3-apache
+    container_name: php83apache
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
+
   mysql:
     image : mysql:8.2
-    container_name: mysql
+    container_name: mysql82
     restart: always
     ports:
       - "6033:3306"
@@ -13,10 +21,11 @@ services:
     volumes:
       - ./:/var/lib/mysql
       - ./netstream.sql:/var/lib/mysql
+      - ./netstream-populate.sql:/var/lib/mysql
 
   phpmyadmin:
     image : phpmyadmin:5.2
-    container_name: phpmyadmin
+    container_name: phpmyadmin52
     depends_on:
       - mysql
     restart: always

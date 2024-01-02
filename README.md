@@ -1,8 +1,6 @@
 # Netsteam database
 
-````
-                                                                                 
-                                                                                 
+````                                                                             
   ,----..      ,---,       ,---,                                         ,--,    
  /   /   \   .'  .' `\    '  .' \                     ,---.            ,--.'|    
 |   :     :,---.'     \  /  ;    '.                  /__./|            |  | :    
@@ -16,7 +14,6 @@
 |   :    / ;   :  .'    |  | ,'                     :   \ |;  :   .'   \  ,   /  
  \   \ .'  |   ,.'      `--''                        '---" |  ,     .-./---`-'   
   `---`    '---'                                            `--`---'             
-                                                                                 
 ````
 
 ## Stacks
@@ -62,6 +59,14 @@ Selectionner tout les films
 ````
 SELECT * FROM Movie
 ````
+
+## Grille de correction
+
+modèle(s) de données /10  
+deployabilité /5  
+requête /3  
+trigger /1  
+procédure stockée /1  
   
 ## Question ?
 <tvinchent@gmail.com>
