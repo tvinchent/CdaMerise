@@ -19,8 +19,8 @@
 ## Instructions
 Cloner ce repo  
 Se placer dans le dossier dans un terminal  
-Lancer : '''' docker compose up ''''  
-Ouvrir localhost:8000
+Lancer : >$ docker compose up
+Ouvrir ![localhost:8000](localhost:8000)
 
 ## Stacks
 **#1**  
