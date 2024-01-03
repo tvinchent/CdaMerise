@@ -17,10 +17,10 @@
 ````
 
 ## Instructions
-Cloner ce repo  
-Se placer dans le dossier dans un terminal  
-Lancer : $ docker compose up  
-Ouvrir [localhost:8000](http://localhost:8000)
+1. Cloner ce repo  
+2. Se placer dans le dossier dans un terminal  
+3. Lancer : $ docker compose up  
+4. Ouvrir [localhost:8000](http://localhost:8000)
 
 ## Stacks
 **#1**  
